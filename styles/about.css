@@ -1,0 +1,31 @@
+.pageContainer{
+    margin: 0px 99.6px;
+    padding: 0px 12px;
+}
+.pageContainer img{
+    border-radius: 4px;
+    height: 484px;
+    width: 1296px;
+}
+.pageContainer div{
+    position: relative;
+    left: 165px;
+    top: -80px;
+    padding: 48px;
+    background-color: #f6e1c5;
+    border-radius: 4px;
+    width: 966px;
+}
+.pageContainer h2{
+font-size: 16px;
+}
+.pageContainer h1{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+.pageContainer .firstParagraph{
+    margin-bottom: 16px;
+}
+.pageContainer p{
+    line-height: 28px;
+}

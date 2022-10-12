@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Metropolis;
+    src: url(/vendors/fonts/Metropolis-Bold.otf);
+  }
+  * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: Metropolis;
+    }
+    body {
+      background-image: linear-gradient(
+          rgba(47, 23, 15, 0.65),
+          rgba(47, 23, 15, 0.65)
+        ),
+        url("/vendors/images/bg.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+    }
+    header div {
+      margin: 80px 0px;
+      text-align: center;
+      font-size: 32px;
+    }
+    header div h4 {
+      color: rgb(230, 167, 86);
+    }
+    header div h1 {
+      color: rgb(246, 225, 197);
+      font-size: 80px;
+      font-weight: 100;
+    }
+    nav {
+      background-color: rgba(47, 23, 15, 0.9);
+      height: 85px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 80px;
+    }
+    nav ul {
+      display: flex;
+      column-gap: 48px;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+    }
+    nav ul li {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 24px;
+      cursor: pointer;
+    }
+    nav ul li a{
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+      color: gray;
+      transition: 0.5s;
+    }
+    footer{
+        background-color: rgba(47, 23, 15, 0.9);
+        color: #f6e1c5;
+        padding: 48px 0px;
+        text-align: center;
+        font-size: 16px;
+      }
